@@ -2,15 +2,15 @@
 const questions = [
     {
         id: 1,
-        question: "¿Cuál es el requisito mínimo de RAM para Windows 11?",
-        options: ["2 GB", "4 GB", "8 GB", "16 GB"],
+        question: "¿Que accion realiza el comando: sudo apt-get install samba?",
+        options: ["Elimina linux", "Instala samba en ubuntu", "Crea script", "Prueba de escaneo"],
         correct: 1
     },
     {
         id: 2,
-        question: "¿Qué comando se usa para ver la configuración de IP en Windows?",
-        options: ["ipconfig", "ifconfig", "netstat", "ping"],
-        correct: 0
+        question: "¿Qué es el el comando de diagnostico de red que se usa solo en Linux?",
+        options: ["ipconfig", "ifconfig", "netstat", "Iptraf"],
+        correct: 3
     },
     {
         id: 3,
@@ -20,8 +20,8 @@ const questions = [
     },
     {
         id: 4,
-        question: "¿Qué herramienta de Windows permite programar tareas automáticas?",
-        options: ["Task Scheduler", "Task Manager", "Services", "MSConfig"],
+        question: "¿Para que se usa la opcion cambiar configuracion de uso compartido avanzado del centro de redes y recursos compartidos?",
+        options: ["Para configurar un perfil ajustado de unas caracteristicas determinadas, ya sea un perfil de una red en el hogar o de una red publica", "para ajustar parametros", "para ajustes", "Para configurar el uso de de los recursos de otros de la red"],
         correct: 0
     },
     {
@@ -38,21 +38,21 @@ const questions = [
     },
     {
         id: 7,
-        question: "¿Qué tecla presionas para abrir el Administrador de tareas?",
-        options: ["Ctrl+Alt+Del", "Ctrl+Shift+Esc", "Alt+F4", "Win+X"],
-        correct: 1
+        question: "¿Cual es el comando que permite actualizar las directivas que han sido configurado?",
+        options: ["dategp", "gpdate", "Upupdate", "Gpupdate"],
+        correct: 3
     },
     {
         id: 8,
-        question: "¿Qué es PowerShell?",
-        options: ["Un editor de texto", "Un shell de línea de comandos", "Un antivirus", "Un navegador"],
-        correct: 1
+        question: "¿Cuales son los niveles que se aplican a los objetos de una GPO?",
+        options: ["Equipo local sitio dominio unidad organizativa 👽", "Equipo local dominio LDAP-SITIO", "Sitio equipo red", "Sitio Local equipo local"],
+        correct: 0
     },
     {
         id: 9,
-        question: "¿Qué versión de Windows introdujo el Explorador de Windows?",
-        options: ["Windows 95", "Windows 3.1", "Windows NT", "Windows 98"],
-        correct: 0
+        question: "¿Que instruccion se coloca en la ventana ejecutar para acceder ala informacion de sistema?",
+        options: ["appwiz.cpl", "Ncpa.cpl", "Msinfo32", "ping"],
+        correct: 2
     },
     {
         id: 10,
@@ -80,15 +80,15 @@ const questions = [
     },
     {
         id: 14,
-        question: "¿Qué tecla abre el menú contextual en Windows?",
-        options: ["Shift+F10", "Alt+F4", "Ctrl+F10", "Win+F10"],
+        question: "¿Qué dispositivo se usa comúnmente para instalar Windows?",
+        options: ["USB booteable", "Mouse", "Impresora", "Win+F10"],
         correct: 0
     },
     {
         id: 15,
-        question: "¿Qué es el Registro de Windows?",
-        options: ["Una base de datos de configuración", "Un archivo de sistema", "Un programa", "Un controlador"],
-        correct: 0
+        question: "¿Partición necesaria para instalar Windows (estilo moderno)?",
+        options: [" HFS+", "NTFS 📁", "Tiene virus", " FAT32"],
+        correct: 1
     },
     {
         id: 16,
@@ -98,15 +98,15 @@ const questions = [
     },
     {
         id: 17,
-        question: "¿Qué versión de Windows introdujo el Centro de actividades?",
-        options: ["Windows 7", "Windows 8", "Windows 10", "Windows Vista"],
-        correct: 2
+        question: "¿Cuánto espacio libre mínimo recomienda Microsoft para Windows 11? 👽",
+        options: [" 16 GB", "128 GB", " 32 GB", " 64 GB 💽"],
+        correct: 3
     },
     {
         id: 18,
-        question: "¿Qué es UAC en Windows?",
-        options: ["User Account Control", "Universal Access Control", "User Authentication Control", "Unified Access Control"],
-        correct: 0
+        question: "Ejemplo de servidor en red Windows: 👽",
+        options: ["User Account Control", "Universal Access Control", " Solicitud de servicio 🌍", "Unified Access Control"],
+        correct: 2
     },
     {
         id: 19,
@@ -116,9 +116,9 @@ const questions = [
     },
     {
         id: 20,
-        question: "¿Qué tecla permite capturar pantalla completa?",
-        options: ["PrtScn", "Ctrl+P", "Alt+P", "Win+P"],
-        correct: 0
+        question: "¿Qué protocolo usa Active Directory para autenticación? 👽",
+        options: ["PrtScn", "Ctrl+P", "Kerberos 🔒", "Win+P"],
+        correct: 2
     },
     {
         id: 21,
@@ -140,9 +140,9 @@ const questions = [
     },
     {
         id: 24,
-        question: "¿Qué comando renueva la dirección IP?",
-        options: ["ipconfig /renew", "ipconfig /release", "ipconfig /flushdns", "ipconfig /all"],
-        correct: 0
+        question: "Herramienta administrativa para usuarios en dominio: 👽",
+        options: [" Netplwiz", "Lusrmgr.msc", "Secpol.msc", "Usuarios y equipos de AD 👥"],
+        correct: 3
     },
     {
         id: 25,
@@ -152,15 +152,15 @@ const questions = [
     },
     {
         id: 26,
-        question: "¿Qué archivo de paginación usa Windows?",
-        options: ["pagefile.sys", "swapfile.sys", "hiberfil.sys", "system.sys"],
-        correct: 0
+        question: "¿Qué DNS necesitan los clientes para unirse al dominio? 👽",
+        options: ["8.8.8.8", "swapfile.sys", "Cualquier DNS público", "Que resuelva el dominio corporativo 🌐"],
+        correct: 3
     },
     {
         id: 27,
-        question: "¿Qué es Hyper-V?",
-        options: ["Virtualización", "Emulador", "Compilador", "Depurador"],
-        correct: 0
+        question: "Ventaja de cliente-servidor frente a P2P: ",
+        options: ["Sin dependencia de red", "Emulador", "Administración centralizada ", "Más rápido siempre 👽"],
+        correct: 2
     },
     {
         id: 28,
@@ -170,14 +170,14 @@ const questions = [
     },
     {
         id: 29,
-        question: "¿Qué tecla abre el Administrador de dispositivos?",
-        options: ["Win+X", "Win+R", "Win+Pause", "Win+D"],
+        question: "Comando para liberar IP en Windows:",
+        options: [" ipconfig /flushdns", " ipconfig /all", " ipconfig /release 🔁", "ipconfig /renew"],
         correct: 2
     },
     {
         id: 30,
-        question: "¿Qué es DirectX?",
-        options: ["API multimedia", "Controlador", "Programa", "Juego"],
+        question: "¿Qué archivo .bat muestra 'Hola mundo'? 👽",
+        options: ["@echo Hola mundo 👾", "Console.log", "Programa", "Write-Host"],
         correct: 0
     },
     {
@@ -188,9 +188,9 @@ const questions = [
     },
     {
         id: 32,
-        question: "¿Qué es el Modo Seguro?",
-        options: ["Arranque mínimo", "Modo juego", "Modo ahorro", "Modo turbo"],
-        correct: 0
+        question: "Extensión de script batch en Windows: ",
+        options: [".BS", "Modo juego", ".SH", " .bat o .cmd 🦇"],
+        correct: 3
     },
     {
         id: 33,
@@ -224,9 +224,9 @@ const questions = [
     },
     {
         id: 38,
-        question: "¿Qué tecla abre el menú Inicio?",
-        options: ["Win", "Ctrl", "Alt", "Shift"],
-        correct: 0
+        question: "Para acceder desde Windows a recurso compartido de Samba, usas:",
+        options: [" samba://", "MOUNT", "smbclient", "\\IP\recurso🌐"],
+        correct: 3
     },
     {
         id: 39,
@@ -242,9 +242,9 @@ const questions = [
     },
     {
         id: 41,
-        question: "¿Qué comando apaga el equipo?",
-        options: ["shutdown", "turnoff", "poweroff", "exit"],
-        correct: 0
+        question: "¿Qué archivo de configuración principal tiene Samba en Linux?",
+        options: ["/etc/smb.conf", " /var/lib/samba", "/etc/samba/config", "/etc/samba/smb.conf"],
+        correct: 3
     },
     {
         id: 42,
@@ -254,15 +254,15 @@ const questions = [
     },
     {
         id: 43,
-        question: "¿Qué tecla cambia entre ventanas?",
-        options: ["Alt+Tab", "Win+Tab", "Ctrl+Tab", "Shift+Tab"],
-        correct: 0
+        question: "¿Qué se debe configurar primero en la BIOS para instalar Windows desde USB?",
+        options: ["teclado", "Hora de sistema", "GUI", "Boot priority (orden de arranque)"],
+        correct: 3
     },
     {
         id: 44,
-        question: "¿Qué es una red peer-to-peer?",
-        options: ["Entre iguales", "Cliente-servidor", "Híbrida", "Malla"],
-        correct: 0
+        question: "¿Qué herramienta permite ver los discos y particiones en Windows?",
+        options: ["paint", "Administrador de discos", "Andriod", "router"],
+        correct: 1
     },
     {
         id: 45,
@@ -278,9 +278,9 @@ const questions = [
     },
     {
         id: 47,
-        question: "¿Qué tecla minimiza todas las ventanas?",
-        options: ["Win+D", "Win+M", "Win+Space", "Win+Home"],
-        correct: 0
+        question: "¿Cuál es un ejemplo de mantenimiento correctivo?",
+        options: ["Actualizar Windows", "Desfragmentar", "Reemplazar disco dañado", "Limpiar polvo"],
+        correct: 2
     },
     {
         id: 48,
@@ -291,8 +291,8 @@ const questions = [
     {
         id: 49,
         question: "¿Qué comando muestra procesos en ejecución?",
-        options: ["tasklist", "pslist", "procs", "showtask"],
-        correct: 0
+        options: ["mkdir", "pslist", "procs", "tasklist"],
+        correct: 3
     },
     {
         id: 50,
@@ -302,9 +302,9 @@ const questions = [
     },
     {
         id: 51,
-        question: "¿Qué tecla abre el cuadro de Ejecutar?",
-        options: ["Win+R", "Win+E", "Win+F", "Win+P"],
-        correct: 0
+        question: "¿Qué significa red Peer-to-Peer?",
+        options: ["Solo un servidor controla todo", "Solo hay un cliente", "Solo hay internet", "Todos los equipos comparten recursos entre sí"],
+        correct: 3
     },
     {
         id: 52,
@@ -314,15 +314,15 @@ const questions = [
     },
     {
         id: 53,
-        question: "¿Qué versión de Windows introdujo Cortana?",
-        options: ["Windows 10", "Windows 8", "Windows 7", "Windows Vista"],
-        correct: 0
+        question: "¿Qué sistema usa servidor central?",
+        options: ["Peer to Peer", "Windows 8", "Windows 7", "Cliente-Servidor"],
+        correct: 3
     },
     {
         id: 54,
         question: "¿Qué es el Historial de archivos?",
-        options: ["Backup", "Restauración", "Recuperación", "Copia de seguridad"],
-        correct: 0
+        options: ["copia de seguridad", "Restauración", "Recuperación", "Backup"],
+        correct: 3
     },
     {
         id: 55,
@@ -338,15 +338,15 @@ const questions = [
     },
     {
         id: 57,
-        question: "¿Qué tecla abre el Explorador de archivos?",
-        options: ["Win+E", "Win+F", "Win+R", "Win+D"],
-        correct: 0
+        question: "¿Ejemplo de red Cliente-Servidor?",
+        options: ["USB compartido", "Bluetooth", "Dos PCs conectadas", "Dominio Windows con servidor central"],
+        correct: 3
     },
     {
         id: 58,
-        question: "¿Qué es el modo tableta en Windows?",
-        options: ["Interfaz táctil", "Modo ahorro", "Modo juego", "Modo avión"],
-        correct: 0
+        question: "¿Qué protocolo usa Windows para compartir archivos?",
+        options: ["FTP", "HTTP", "SMB", "SMTP"],
+        correct: 2
     },
     {
         id: 59,
@@ -362,9 +362,9 @@ const questions = [
     },
     {
         id: 61,
-        question: "¿Qué tecla bloquea la PC?",
-        options: ["Win+L", "Win+K", "Win+U", "Win+I"],
-        correct: 0
+        question: "¿Qué archivo se usa para automatización en Windows?",
+        options: [".doc", ".bat", ".jpg", ".pgn"],
+        correct: 1
     },
     {
         id: 62,
@@ -386,8 +386,8 @@ const questions = [
     },
     {
         id: 65,
-        question: "¿Qué tecla abre Configuración?",
-        options: ["Win+I", "Win+S", "Win+A", "Win+Q"],
+        question: "¿Qué comando muestra archivos en un script .bat?",
+        options: ["dir", "Show", "ls", "file"],
         correct: 0
     },
     {
@@ -410,9 +410,9 @@ const questions = [
     },
     {
         id: 69,
-        question: "¿Qué tecla abre el Centro de Accesibilidad?",
-        options: ["Win+U", "Win+A", "Win+C", "Win+H"],
-        correct: 0
+        question: "¿Qué cable se usa comúnmente en redes LAN?",
+        options: ["VGA", "SATA", "HDMI", "UTP Ethernet"],
+        correct: 3
     },
     {
         id: 70,
@@ -434,15 +434,15 @@ const questions = [
     },
     {
         id: 73,
-        question: "¿Qué tecla abre el Centro de redes?",
-        options: ["Win+X", "Win+R", "Win+P", "Win+K"],
-        correct: 0
+        question: "¿Qué tipo de mantenimiento elimina virus?",
+        options: ["Preventivo", "Físico", "Predictivo", "Correctivo"],
+        correct: 3
     },
     {
         id: 74,
-        question: "¿Qué es el modo de hibernación?",
-        options: ["Guardar estado en disco", "Suspender", "Apagar", "Reiniciar"],
-        correct: 0
+        question: "¿Qué servicio permite compartir carpetas en Linux para Windows?",
+        options: ["DNS", "FTP", "APACHE", "Samba"],
+        correct: 3
     },
     {
         id: 75,
@@ -458,9 +458,9 @@ const questions = [
     },
     {
         id: 77,
-        question: "¿Qué tecla abre el Administrador de tareas directamente?",
-        options: ["Ctrl+Shift+Esc", "Ctrl+Alt+Del", "Win+X", "Alt+F4"],
-        correct: 0
+        question: "¿Qué archivo configura Samba?",
+        options: ["config.sys", "autoexec.bat", "smb.conf", "hosts"],
+        correct: 2
     },
     {
         id: 78,
@@ -470,9 +470,9 @@ const questions = [
     },
     {
         id: 79,
-        question: "¿Qué versión de Windows introdujo el Explorador con cinta?",
-        options: ["Windows 8", "Windows 7", "Windows 10", "Windows Vista"],
-        correct: 0
+        question: "¿Qué acción mejora el rendimiento del disco duro?",
+        options: ["Windows 8", "Windows 7", "Desfragmentar disco", "Windows Vista"],
+        correct: 2
     },
     {
         id: 80,
